@@ -1,0 +1,52 @@
+﻿<Window x:Class="CellularAutomaton.RulesGUI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="RulesGUI" ResizeMode="NoResize" Height="400" Width="650">
+    <Grid>
+        <Label Content="If" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="initialState" HorizontalAlignment="Left" Margin="27,14,0,0" VerticalAlignment="Top" Width="67">
+            <ComboBoxItem Content="Alive" HorizontalAlignment="Left" Width="88" IsSelected="True" Selected="ComboBoxItem_Selected"/>
+            <ComboBoxItem Content="Dead" HorizontalAlignment="Left" Width="88"/>
+            <ComboBoxItem Content="Any" HorizontalAlignment="Left" Width="88"/>
+        </ComboBox>
+        <Label Content="has" HorizontalAlignment="Left" Margin="94,14,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="comparison1" HorizontalAlignment="Left" Margin="127,14,0,0" VerticalAlignment="Top" Width="90">
+            <ComboBoxItem Content="more than" HorizontalAlignment="Left" Width="88"/>
+            <ComboBoxItem Content="exactly" IsSelected="True" HorizontalAlignment="Left" Width="88"/>
+            <ComboBoxItem Content="less than" HorizontalAlignment="Left" Width="88"/>
+        </ComboBox>
+        <TextBox Name="num1" HorizontalAlignment="Left" Height="19" Margin="222,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26"/>
+        <ComboBox Name="state1" HorizontalAlignment="Left" Margin="262,15,0,0" VerticalAlignment="Top" Width="67">
+            <ComboBoxItem Content="Alive" IsSelected="True" HorizontalAlignment="Left" Width="88" Selected="ComboBoxItem_Selected"/>
+            <ComboBoxItem Content="Dead" HorizontalAlignment="Left" Width="88"/>
+            <ComboBoxItem Content="Any" HorizontalAlignment="Left" Width="88"/>
+        </ComboBox>
+        <Label Content="neighbors, change state to" HorizontalAlignment="Left" Margin="351,14,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="changedState" HorizontalAlignment="Left" Margin="523,18,0,0" VerticalAlignment="Top" Width="67">
+            <ComboBoxItem Content="Alive" HorizontalAlignment="Left" Width="88" Selected="ComboBoxItem_Selected"/>
+            <ComboBoxItem Content="Dead" IsSelected="True" HorizontalAlignment="Left" Width="88"/>
+        </ComboBox>
+        <Button Content="Modify Set" HorizontalAlignment="Left" Margin="523,55,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label Content="Mark" HorizontalAlignment="Left" Margin="10,128,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="state" HorizontalAlignment="Left" Margin="55,132,0,0" VerticalAlignment="Top" Width="67">
+            <ComboBoxItem Content="Alive" HorizontalAlignment="Left" IsSelected="True" Width="88" Selected="ComboBoxItem_Selected"/>
+            <ComboBoxItem Content="Dead" HorizontalAlignment="Left" Width="88"/>
+        </ComboBox>
+        <Label Content="cells, change state to" HorizontalAlignment="Left" Margin="127,129,0,0" VerticalAlignment="Top" Height="25" Width="121"/>
+        <ComboBox Name="rules" HorizontalAlignment="Left" Margin="262,55,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="rules_SelectionChanged"/>
+        <Button Content="Remove rule" HorizontalAlignment="Left" Margin="397,55,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+        <Button Name="addRule" Content="Add rule" HorizontalAlignment="Left" Margin="523,98,0,0" VerticalAlignment="Top" Width="75" Click="addRule_Click"/>
+        <Grid  HorizontalAlignment="Left" Height="131" Margin="27,195,0,0" VerticalAlignment="Top" Width="143">
+            <UniformGrid Name="grid_neigh" />
+            </Grid>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="523,310,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Button Content="AddRule" HorizontalAlignment="Left" Margin="366,132,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3" />
+        <ComboBox Name="rules2" HorizontalAlignment="Left" Margin="366,177,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox Name="finalState" HorizontalAlignment="Left" Margin="262,132,0,0" VerticalAlignment="Top" Width="71">
+            <ComboBoxItem Content="Alive" HorizontalAlignment="Left" IsSelected="True" Width="88" Selected="ComboBoxItem_Selected"/>
+            <ComboBoxItem Content="Dead" HorizontalAlignment="Left" Width="88"/>
+        </ComboBox>
+
+
+    </Grid>
+</Window>

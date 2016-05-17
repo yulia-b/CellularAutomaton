@@ -1,0 +1,15 @@
+c:\users\пользователь\documents\visual studio 2013\Projects\CellularAutomaton\CellularAutomaton\bin\Debug\CellularAutomaton.exe.config
+c:\users\пользователь\documents\visual studio 2013\Projects\CellularAutomaton\CellularAutomaton\bin\Debug\CellularAutomaton.exe
+c:\users\пользователь\documents\visual studio 2013\Projects\CellularAutomaton\CellularAutomaton\bin\Debug\CellularAutomaton.pdb
+c:\users\пользователь\documents\visual studio 2013\Projects\CellularAutomaton\CellularAutomaton\obj\Debug\CellularAutomaton.csprojResolveAssemblyReference.cache
+c:\users\пользователь\documents\visual studio 2013\Projects\CellularAutomaton\CellularAutomaton\obj\Debug\App.g.cs
+c:\users\пользователь\documents\visual studio 2013\Projects\CellularAutomaton\CellularAutomaton\obj\Debug\CellularAutomaton_MarkupCompile.cache
+c:\users\пользователь\documents\visual studio 2013\Projects\CellularAutomaton\CellularAutomaton\obj\Debug\CellularAutomaton.g.resources
+c:\users\пользователь\documents\visual studio 2013\Projects\CellularAutomaton\CellularAutomaton\obj\Debug\CellularAutomaton.Properties.Resources.resources
+c:\users\пользователь\documents\visual studio 2013\Projects\CellularAutomaton\CellularAutomaton\obj\Debug\CellularAutomaton.csproj.GenerateResource.Cache
+c:\users\пользователь\documents\visual studio 2013\Projects\CellularAutomaton\CellularAutomaton\obj\Debug\CellularAutomaton.exe
+c:\users\пользователь\documents\visual studio 2013\Projects\CellularAutomaton\CellularAutomaton\obj\Debug\CellularAutomaton.pdb
+c:\users\пользователь\documents\visual studio 2013\Projects\CellularAutomaton\CellularAutomaton\obj\Debug\RulesGUI.baml
+c:\users\пользователь\documents\visual studio 2013\Projects\CellularAutomaton\CellularAutomaton\obj\Debug\RulesGUI.g.cs
+c:\users\пользователь\documents\visual studio 2013\Projects\CellularAutomaton\CellularAutomaton\obj\Debug\MainGUI.baml
+c:\users\пользователь\documents\visual studio 2013\Projects\CellularAutomaton\CellularAutomaton\obj\Debug\MainGUI.g.cs
